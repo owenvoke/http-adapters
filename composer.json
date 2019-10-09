@@ -1,0 +1,28 @@
+{
+    "name": "pxgamer/http-adapters",
+    "type": "library",
+    "description": "A collection of HTTP adapters for API wrappers.",
+    "license": "MIT",
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "pxgamer\\HttpAdapters\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "pxgamer\\HttpAdapters\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
