@@ -19,7 +19,9 @@ $ composer require pxgamer/http-adapters
 
 ## Usage
 
-...
+This package contains an [`HttpAdapter`](src/HttpAdapter.php) interface that can be implemented for consistent usage.
+
+Adapters will be created for Guzzle, Curl, etc. in future.
 
 ## Change log
 
